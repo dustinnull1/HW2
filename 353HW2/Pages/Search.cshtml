@@ -1,0 +1,36 @@
+﻿@page
+@{
+}
+<table>
+    <tr>
+        <td colspan="2"><h1 class="h1">Weather Look-Up</h1></td>
+    </tr>
+    <tr>
+        <td colspan="2"><h2 class="h2">Enter a city:</h2></td>
+    </tr>
+    <tr>
+        <td><label for="locINp">City:</label></td>
+        <td><input type="text" id="locInp" /></td>
+    </tr>
+    <tr>
+        <td colspan="2"><h2 class="h2">Enter a state:</h2></td>
+    </tr>
+    <tr>
+        <td><label for="locState">State:</label></td>
+        <td><input type="text" id="localState" /></td>
+    </tr>
+    <tr>
+        <td colspan="2"><h2 class="h2">Enter a zip code:</h2></td>
+    </tr>
+    <tr>
+        <td><label for="locZip">Zip Code:</label></td>
+        <td><input type="text" id="locZip" /></td>
+    </tr>
+    <tr>
+        <td> <button> onclick="lookupWeather()"Get Weather</button></td>
+    </tr>
+</table>
+
+<script>function lookupWeather() {
+        alert("Weather lookup button clicked!");
+    }</script>
